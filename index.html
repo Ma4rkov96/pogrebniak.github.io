@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=10">
+    <title>Your title</title>    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="content-wrapper">
+        <header class="header">
+            <p class="logo" style="font-size: 25px; margin: 0; padding: 2px 3em;">Facebook</p>
+        </header>
+
+        <div class="container clearfix">
+            <aside class="sidebar">
+                <h1 style="font-size: 40px; margin: 0;">Создайте свой аккаунт</h1>
+                <p style="margin-bottom: 10px;">Это всегда бесплатно</p>
+                <div class="reginput">
+
+                    <p><input 
+                        type="text" 
+                        id="Name"
+                        placeholder="Имя"
+                        />
+
+                       <input 
+                        type="text" 
+                        id="Surname"
+                        placeholder="Фамилия"
+                        /><br></p>
+
+                    <p><input 
+                        type="tel"
+                        name="phone"
+                        placeholder="Телефон"
+                        pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+                        minlength="13"
+                        maxlength="13"
+                        /><br></p>
+
+                    <p><input 
+                        type="password" 
+                        id="Passwd"
+                        placeholder="Пароль"
+                        /></p>
+
+                    <p style="font-size: 15px; margin-bottom: 5px;">Дата рождения</p>
+                    <input type="date" id="birthday"><br>
+                </div>
+                    <div class="rbox">
+                    <input type="radio" name="sex">Женщина</tag>
+                    <input type="radio" name="sex">Мужчина</tag>
+                    </div>
+                    <div class="regbutton">
+                        <button type="submit">Регистрация</button>
+                    </div>
+            </aside>
+        </div>
+
+        <footer class="footer">
+            <p style="font-size: 30px; margin: 0; padding: 10px 1em;">Footer</p>
+        </footer>
+    </div>  
+</body>
+</html>
